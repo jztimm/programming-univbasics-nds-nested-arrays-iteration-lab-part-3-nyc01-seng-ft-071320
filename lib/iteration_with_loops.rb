@@ -10,7 +10,7 @@ def join_nested_strings(src)
     ele_arr = 0
     while ele_arr < src[inner_arr].length do
       if src[inner_arr][ele_arr] == alphabet 
-        new_str_arr += src[inner_arr][ele_arr]
+        new_str_arr << src[inner_arr][ele_arr]
       end
       ele_arr += 1
     end
